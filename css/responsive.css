@@ -1,0 +1,14 @@
+@media only screen and (max-width: 860px) {
+  .gameContainer {
+    flex-wrap: wrap;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 19vw);
+    grid-template-rows: repeat(3, 19vw);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-bottom: 56px;
+  }
+}

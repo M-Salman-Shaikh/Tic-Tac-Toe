@@ -1,0 +1,114 @@
+/* Utility classes section */
+
+.mt4 {
+  margin-top: 38px;
+}
+
+.mb4 {
+  margin-bottom: 52px;
+}
+
+h1 {
+  color: #000;
+  font-variant: small-caps;
+  width: 90vw;
+  text-align: center;
+}
+
+.br0 {
+  border-right: 0 !important;
+}
+
+.bl0 {
+  border-left: 0 !important;
+}
+
+.bt0 {
+  border-top: 0 !important;
+}
+
+.bb0 {
+  border-bottom: 0 !important;
+}
+
+/* The end of utility classes section */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  width: 19%;
+  text-align: center;
+}
+
+nav {
+  background-color: cyan;
+  color: black;
+  display: flex;
+  align-items: center;
+  height: 35%;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+nav ul li {
+  padding: 18px;
+}
+
+form {
+  width: 38%;
+  display: flex;
+  justify-content: end;
+}
+
+.gameContainer {
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 34px 0 0 0;
+  position: relative;
+}
+
+.boxesContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 10vw);
+  grid-template-rows: repeat(3, 10vw);
+}
+
+.boxOfSpan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-size: 57px;
+}
+
+.boxOfSpan:hover {
+  background-color: rgba(0, 255, 255, 0.826);
+}
+
+.gameInfo {
+  padding: 0 34px;
+  position: absolute;
+  top: 244px;
+  right: 395px;
+}

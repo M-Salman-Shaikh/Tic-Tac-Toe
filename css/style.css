@@ -1,0 +1,83 @@
+/* Utility classes  */
+
+.bt0 {
+  border-top: 0 !important;
+}
+
+.bb0 {
+  border-bottom: 0 !important;
+}
+
+.bl0 {
+  border-left: 0 !important;
+}
+
+.br0 {
+  border-right: 0 !important;
+}
+
+/* The end of utility classes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 65px;
+  background-color: black;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+nav ul li {
+  list-style: none;
+  color: white;
+  font-size: 28px;
+}
+
+.gameContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 10vw);
+  grid-template-rows: repeat(3, 10vw);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.box {
+  border: 1px solid black;
+  font-size: 8vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.box:hover {
+  background-color: rgba(94, 113, 182, 0.292);
+}
+
+.gameInfo {
+  padding: 0 23px;
+}
+
+.gameInfo h1 {
+  margin-bottom: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 28px;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+.imgBox img {
+  width: 0;
+  transition: width 1s ease-in-out;
+}
